@@ -140,6 +140,7 @@
     text-align: center;
     outline: none;
     color: white;
+    cursor: pointer;
 }
 
 .button-calculate {
@@ -153,4 +154,125 @@
     background: none;
 }
 
- 
+.review-projects {
+    height: 1074px;
+    background-color: var(--black);
+    padding: 107px 10% 0 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-review {
+    display: flex;
+    column-gap: 50px;
+    height: min-content;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-about__title {
+    margin-top: 65px;
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: var(--golden-text-color);
+}
+
+.text-about__description {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 34px;
+
+}
+
+.text__list {
+    margin-top: 42px;
+}
+
+.text__list ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 35px;
+    row-gap: 35px;
+}
+
+.text__list h1 {
+    color: var(--golden-text-color);
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.text__list p {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 9px;
+}
+
+.text-arrow {
+    display: flex;
+    column-gap: 15px;   
+}
+
+.arrow-left {
+    margin-right: 15px;
+}
+
+.arrow-right {
+    margin-left: 15px;
+}
+
+.navigation-project {
+    display: flex;
+    column-gap: 60px;
+}
+
+.navigation-project h1 {
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255,255,255, 0.3)
+}
+
+.navigation-project h1:nth-child(1) {
+    color: var(--golden-text-color);
+    position: relative;
+
+}
+
+.navigation-project h1:nth-child(1)::before {
+    content: " ";
+    height: 1px;
+    width: 100%;
+    background-color: var(--golden-text-color);
+    position: absolute;
+    bottom: calc(0% - 7px);
+} 
+
+
+
+.image-content img {
+    margin-top: 53px;
+}
