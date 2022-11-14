@@ -916,3 +916,36 @@
     color: #959595;
     margin-right: 32px;
 }
+
+.client-card button {
+    display: flex;
+    width: 300px;
+    height: 54px;
+    background-color: var(--golden-text-color);
+    border: none;
+    outline: none;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    bottom: -27px;
+    padding-left: 5px;
+}
+
+.client-card button span {
+    height: 54px;
+    background-color: white;
+    width: 1px;
+    position: absolute;
+    left: 130px;
+}
+
+.client-card button p {
+    color: white;
+    margin-bottom: 18px;
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
