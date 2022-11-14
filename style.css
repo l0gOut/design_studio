@@ -825,3 +825,91 @@
 .container-examples-image div:last-child {
     margin-bottom: 150px;
 }
+
+.container-client-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.reviews__title {
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #181818;   
+}
+
+.client-image-contract {
+    display: flex;
+    align-items: center;
+}
+
+.client-image-contract span {
+    height: 1px;
+    width: 32px;
+    background-color: var(--golden-text-color);
+}
+
+.client-image-contract img {
+    margin: 16px 8px 27px 8px;
+}
+
+.client-description {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;   
+    width: 400px;  
+}
+
+.client-card-container {
+    display: flex;
+    justify-content: center;   
+    column-gap: 54px;
+}
+
+.client-card {
+    width: 376px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+
+.client-card p,
+.client-card div {
+    margin-left: 20px;
+}
+
+.client-card div {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.client-card div h1 {
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px; 
+    color: #181818;
+    width: 200px;
+    margin-left: 23px;
+
+}
+
+.client-card p {
+    margin-top: 22px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+    margin-right: 32px;
+}
