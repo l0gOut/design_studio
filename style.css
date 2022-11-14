@@ -846,7 +846,9 @@
 .client-image-contract {
     display: flex;
     align-items: center;
+    margin: 13px 0 24px 0;
 }
+
 
 .client-image-contract span {
     height: 1px;
@@ -855,7 +857,7 @@
 }
 
 .client-image-contract img {
-    margin: 16px 8px 27px 8px;
+    margin: 0 8px;
 }
 
 .client-description {
@@ -873,6 +875,7 @@
     display: flex;
     justify-content: center;   
     column-gap: 54px;
+    margin-top: 40px;
 }
 
 .client-card {
