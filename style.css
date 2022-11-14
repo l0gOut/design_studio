@@ -949,3 +949,242 @@
     line-height: 24px;
     text-transform: uppercase;
 }
+
+.container-city-background {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -400px;
+}
+
+.container-city-background img {
+    position: absolute;
+}
+.container-city-background img:last-child {
+    right: 0;
+} 
+
+.container-map {
+    background-image: url("image/background-map.png");
+    height: 954px;
+    margin-top: 375px;
+}
+
+.transparent-map {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.form-questions {
+    height: 445px;
+    width: 883px;
+    background-color: #181818;
+    position: absolute;
+    top: -222px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container-name-phone {
+    display: flex;
+    column-gap: 60px;
+}
+
+.container-name-phone input {
+    width: 231px;
+}
+
+.form-questions h1 {
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.form-questions h6 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;   
+    color: rgba(255, 255, 255, 0.5);    
+}
+
+.form-questions input[placeholder] {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;   
+    color: #FFFFFF;
+    background: none;
+    outline: none;
+    border-width: 0 0 1px 0;
+    border-color: rgba(255, 255, 255, 0.15);
+    border-style: solid;
+}
+
+.form-questions input::placeholder {
+    color: white;
+}
+
+.container-question-agree {
+    display: flex;
+}
+
+.container-question, .container-name-phone {
+    min-width: 530px;
+}
+
+.container-question input{
+    width: 100%;
+}
+
+.container-question-agree input {
+    display: none;
+}
+
+.container-question-agree label::before {
+    content: " ";
+    cursor: pointer;
+    color: white;
+    display: inline-flex;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    background: white;
+    background-color: var(--golden-text-color);
+    justify-content: center;
+    font-size: 17px;
+}
+
+.container-question-agree input:checked + label:before {
+    background-color: var(--golden-text-color);
+    border: none;
+    content:"\2714";
+    border-radius: 1px;
+}
+
+.container-question-agree p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+
+.form-questions button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 200px;
+    height: 51px;    
+    background-color: var(--golden-text-color);
+    cursor: pointer;
+}
+
+.map__title {
+    font-family: 'Yeseva One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;  
+    color: #E3B873;    
+    margin-top: 250px;
+    width: 590px;
+}
+
+.container-map-image {
+    margin: 26px 0;
+    display: flex;
+    column-gap: 15px;
+}
+
+.container-map-image img {
+    cursor: pointer;
+}
+
+.footer {
+    height: 83px;
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-name-title, .footer-menu-item, .footer-menu-phone {
+    font-family: "Nunito Sans", sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 15px;
+    font-weight: 400;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.footer-name-title {
+    color: var(--golden-text-color);
+}
+
+.footer-menu {
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    width: 50%;
+}
+
+.footer-menu-item, .footer-menu-phone__link, .footer-menu-phone__call {
+    color: white;
+    transition: color 200ms;
+}
+
+.footer-menu-phone__link:hover,
+.footer-menu-item:hover  {
+    color: var(--golden-text-color);
+}
+
+.footer-menu-phone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 21%;
+}
+
+.footer-menu-phone__link,
+.footer-menu-phone__call {
+    white-space: nowrap;
+}
+
+.footer-menu-phone__call {
+    background-color: var(--golden-text-color);
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+    width: 161px;
+    height: 37px;
+}
+
